@@ -1,0 +1,4 @@
+日志的生成从test_C2_F_system_Subject_config
+
+界面测试中开始增加
+只输出用例执行不过的日志信息，结合用例的xlsx表格分析报错原因。

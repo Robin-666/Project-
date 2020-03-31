@@ -1,0 +1,13 @@
+select * from org_member  查询OA中的所有人员
+
+-8639625680632198835 单位A
+
+select * from org_member where   IS_ADMIN = 0 and IS_ENABLE = 1 and IS_DELETED = 0 and ORG_ACCOUNT_ID = -8639625680632198835  根据单位等不同条件进行查询数据
+
+org_unit  为所有部门  
+ORG_ACCOUNT_ID   为单位ID 
+
+select count(1) from LEXMISCIF_PERSAUX  查询人员绑定的数据
+
+SELECT * from lexmiscif_persaux where  PA_ACCTID = 001 and PA_ACCTYEAR = 2019   账套号+年度 = 查询已绑定的人员
+
